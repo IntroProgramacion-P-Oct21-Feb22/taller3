@@ -7,7 +7,7 @@ package ejercicio01;
 
 /**
  *
- * @author reroes
+ * @author su-usuario-github
  */
 public class Ejercicio01 {
 
@@ -15,32 +15,22 @@ public class Ejercicio01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Resolver
+        // Solución a la problemática
+
+        int variable1 = 1;
+        int variable2 = 2;
+        int variable3 = 4;
+        int variable4 = 3;
+        int variable5 = 5;
+        int variable6 = 81;
+
+        System.out.println("-------Solución a problema------------------");
+
+        double resultado = (variable1 + variable2 + variable3 + variable4) / 
+                variable5 + Math.sqrt(variable6);
         
-        // Crear una variable entera llamada edad
-        // Asignar a la variable edad el valor de 20
-        
-        
-        // Crear una variable double llamada promedio
-        // Asignar a la variable promedio el valor de 10.2
-        
-        
-        // Crear una variable String llamada pais
-        // Asignar a la variable pais el valor de Ecuador
-        
-        
-        
-        System.out.println(edad);
-        System.out.println(promedio);
-        System.out.println(pais);
-        
-        
-        System.out.println("-------Ejemplos de expresiones------------------");
-        
-        double resultado = (1+2+4+3)/5+Math.sqrt(81);
         System.out.println(resultado);
-        
-        
+
     }
-    
+
 }
